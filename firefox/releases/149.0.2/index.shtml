@@ -1,0 +1,73 @@
+<!--#set var="release_date" value="2026-04-07" -->
+<!--#set var="version" value="149.0.2" -->
+<!--#set var="previous_version" value="149.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/149.0.2/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-25/">安全性修正</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正列印時部分網頁內容（例如下拉選單與特定樣式）顯示不正確的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2026109">Bug 2026109</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分網站錯誤頁會顯示通用連線訊息，而非伺服器提供的具體錯誤代碼與說明之問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2023800">Bug 2023800</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正使用特定安全金鑰或 WebAuthn 進行雙重驗證時可能發生的當機問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2026688">Bug 2026688</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Linux 上使用 Wayland 時，拖曳分頁後工具列可能無法回應滑鼠點擊的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2022238">Bug 2022238</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正特定圖形（SVG）中的文字顯示可能出現位移或未對齊預期位置的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2024647">Bug 2024647</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Firefox View 的「開啟的分頁」區塊中，「傳送到裝置」選項無法使用的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2023201">Bug 2023201</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>新增企業政策，讓管理員可直接管理並控制 Firefox 中與 AI 相關的功能。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2019983">Bug 2019983</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>修正瀏覽器首頁與啟動頁面的企業政策未正確套用。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2027888">Bug 2027888</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>新增企業政策，讓管理員可停止內建 VPN 與 IP 保護功能露出供使用。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2022365">Bug 2022365</a>）</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20149&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox149&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla149&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

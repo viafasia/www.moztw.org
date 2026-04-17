@@ -73,9 +73,16 @@
   width: 120px;
 }
 
-#releasenotes .tag-new,
-#releasenotes .tag-enterprise {
+#releasenotes .tag-new {
   background-color: #FFEDCF;
+}
+
+#releasenotes .tag-labs {
+  background-color: #ffd1be;
+}
+
+#releasenotes .tag-enterprise {
+  background-color: #f6fdb9;
 }
 
 #releasenotes .tag-html5 {

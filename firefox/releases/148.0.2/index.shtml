@@ -1,0 +1,58 @@
+<!--#set var="release_date" value="2026-03-10" -->
+<!--#set var="version" value="148.0.2" -->
+<!--#set var="previous_version" value="148.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/148.0.2/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分從進階設定停用「search handoff」行為的使用者，在 Firefox 首頁搜尋框輸入的查詢被錯誤導向網址列的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2017049">Bug 2017049</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分網頁型所見即所得編輯器無法套用諸如粗體或斜體等樣式的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2020927">Bug 2020927</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正即使已封鎖自動播放，YouTube 影片仍可能意外自動播放的問題，對螢幕閱讀器使用者影響尤其明顯。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2020233">Bug 2020233</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分用於置中的絕對定位元素（例如使用 <code>margin: auto</code> 搭配 <code>inset: 0</code>）在初次載入時顯示為靠左的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2017440">Bug 2017440</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正網址列中「切換至該分頁」在無標題頁面會顯示成空白的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2020341">Bug 2020341</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正在 Windows 使用 NVIDIA GPU 並啟用超解析度視訊（Video Super Resolution）時，可能導致影片畫質下降的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2019515">Bug 2019515</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-19/">安全性修正</a>。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20148&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox148&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla148&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
