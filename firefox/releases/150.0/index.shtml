@@ -1,0 +1,180 @@
+<!--#set var="release_date" value="2026-04-21" -->
+<!--#set var="version" value="150.0" -->
+<!--#set var="previous_version" value="149.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/150.0/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/split-view-firefox">分割畫面</a>變得更好用了：現在可在任何連結上按右鍵，選擇「用分割畫面開啟鏈結」，將連結與目前分頁並排開啟。建立分割畫面時也可搜尋已開啟分頁，並可透過分頁右鍵選單中的「反轉分頁順序」快速交換兩側位置。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在可一次分享多個分頁。選取多個分頁後按右鍵，（在 Windows 與 Linux）選擇「複製 X 個鏈結」，（在 macOS）選擇「分享」→「複製 X 個鏈結」。貼到支援 rich text 的應用程式時，會同時包含頁面標題與網址，方便閱讀。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在可使用 <a target="_blank" href="https://support.mozilla.org/kb/view-pdf-files-firefox-or-choose-another-viewer">Firefox 內建的 PDF 編輯器</a>重新排序、複製、貼上、刪除與匯出 PDF 頁面。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在 Firefox 桌面版試用即時、隱私的翻譯功能：開啟 <code>about:translations</code> 頁面，或在網址列輸入「translate」並點擊快速動作捷徑前往。</p>
+      <p><img src="/firefox/releases/150.0/150_about_translations.png" alt="螢幕截圖：網址列顯示 translate 快速動作，並開啟 about:translations 翻譯頁面"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Linux 現在支援 GTK emoji picker，使用者可透過系統快捷鍵（通常是 <code>Ctrl</code>+<code>.</code>）插入 emoji。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>透過 Microsoft Store 安裝 Firefox 的 Windows 使用者，現在也可以使用 Firefox <a target="_blank" href="https://support.mozilla.org/kb/web-apps-firefox-windows">Web Apps</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>新的 <a target="_blank" href="https://support.mozilla.org/kb/profile-management">Firefox 設定檔</a> 管理系統現在開放給包含 Windows 10 的所有使用者。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/firefox-backup">將設定檔備份到檔案</a>現在開放給所有 Windows 10 與 Windows 11 使用者，包含使用新版設定檔管理系統的使用者。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 現在為 Red Hat、Fedora、openSUSE 與其他 RPM-based Linux 發行版使用者提供新的 <code>.rpm</code> 套件。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>當網站要求使用你的位置，但 Windows 設定尚未允許 Firefox 存取位置時，Firefox 現在會提示你到 Windows 設定啟用位置存取。此行為先前只限部分 Windows 11 版本，現在適用於所有受支援的 Windows 版本。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/built-in-vpn">內建 VPN</a> 現在開放給加拿大使用者。注意：企業版環境不包含此功能。</p>
+      <p>目前提供地區：加拿大、法國、德國、英國、美國。</p>
+      <p class="progressive-roll">某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 macOS 啟用封閉模式（Lockdown mode）時，網頁內容中的 emoji 字元無法顯示的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-30">安全性修正</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>如果你偏好從右鍵選單建立分頁群組，現在可在「設定」→「分頁」中關閉「將分頁拖曳到一起，即可建立分頁群組」。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-150-release-notes">Firefox 150 企業版版本資訊</a> 中找到政策更新與企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/150">Firefox 150 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>pseudo-class 切換面板新增「特定元素」區塊，包含只會對具有 open 狀態元素（例如 <code>&lt;dialog&gt;</code>）顯示的 <code>:open</code> pseudo-class。既有的 <code>:visited</code> 也移入此區塊，因為它只適用於 <code>&lt;a&gt;</code> 與 <code>&lt;area&gt;</code> 元素。（<a target="_blank" href="https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css/index.html#viewing-common-pseudo-classes">深入了解</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><code>Document.caretPositionFromPoint()</code> 現在只有在新加入的 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Document/caretPositionFromPoint#shadowroots"><code>shadowRoots</code></a> 選項傳入對應 ShadowRoot 時，才會回傳 shadow DOM 內的位置。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>開發者工具的網路監控器，現在會標示使用非 Mozilla Root CA Program 內憑證機構簽發憑證的連線。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Document/ariaNotify">ariaNotify API</a>，可用更直覺且可靠的方式發送無障礙通知（例如給螢幕閱讀器），作為 ARIA live regions 的替代方案。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援媒體元件的 pseudo-classes（例如 <code>:playing</code>、<code>:paused</code>），讓網站可依媒體播放狀態設定更精準的樣式。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/HighlightRegistry/highlightsFromPoint"><code>highlightsFromPoint()</code> API</a> 支援，可回傳指定位置上的所有 CSS Highlights，讓網頁與 CSS Highlights 互動。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援將 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/light-dark"><code>light-dark()</code></a> 用於圖片，就像用於色彩一樣，對網站支援暗色模式很有幫助。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p><a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/color-mix"><code>color-mix()</code></a> 函式先前只接受兩個色彩值；此限制已移除，現在可接受任意數量的色彩。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>lazy-loaded 圖片元件若透過 <code>srcset</code> 定義多張圖片，<a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/sizes"><code>sizes</code></a> 屬性現在支援新的 <code>auto</code> 值，讓瀏覽器能依圖片元素的版面寬度自動選擇合適圖片。（<a target="_blank" href="https://ericportis.com/posts/2023/auto-sizes-pretty-much-requires-width-and-height/">深入了解</a>）</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20150&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox150&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla150&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 150 的發布，我們喜迎以下首次貢獻程式到 Firefox 的開發者，其中有 22 位是全新的志工！一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Akeldama: <a target="_blank" href="https://bugzilla.mozilla.org/1718781">1718781</a></li>
+    <li>Alex Reisner: <a target="_blank" href="https://bugzilla.mozilla.org/2005628">2005628</a></li>
+    <li>amar.p.t.1397: <a target="_blank" href="https://bugzilla.mozilla.org/2003168">2003168</a></li>
+    <li>Anshul Malik: <a target="_blank" href="https://bugzilla.mozilla.org/1561441">1561441</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1814459">1814459</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2018447">2018447</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2018843">2018843</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2019010">2019010</a></li>
+    <li>baris: <a target="_blank" href="https://bugzilla.mozilla.org/2008127">2008127</a></li>
+    <li>Ben: <a target="_blank" href="https://bugzilla.mozilla.org/1967026">1967026</a></li>
+    <li>Chad Gratts: <a target="_blank" href="https://bugzilla.mozilla.org/2003111">2003111</a></li>
+    <li>Elliott Ashby: <a target="_blank" href="https://bugzilla.mozilla.org/1674654">1674654</a></li>
+    <li>geppy: <a target="_blank" href="https://bugzilla.mozilla.org/1767617">1767617</a></li>
+    <li>Giedrius Visokinskas [:gvisokinskas]: <a target="_blank" href="https://bugzilla.mozilla.org/1910291">1910291</a></li>
+    <li>Jocsan: <a target="_blank" href="https://bugzilla.mozilla.org/2016933">2016933</a></li>
+    <li>Justin Peter: <a target="_blank" href="https://bugzilla.mozilla.org/1971538">1971538</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2010486">2010486</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2018840">2018840</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2018842">2018842</a></li>
+    <li>karan68: <a target="_blank" href="https://bugzilla.mozilla.org/1998004">1998004</a></li>
+    <li>Knot False: <a target="_blank" href="https://bugzilla.mozilla.org/1861645">1861645</a></li>
+    <li>Liam Wachter: <a target="_blank" href="https://bugzilla.mozilla.org/2018739">2018739</a></li>
+    <li>Michael Lynch: <a target="_blank" href="https://bugzilla.mozilla.org/2023046">2023046</a></li>
+    <li>Mohammed Abdullah: <a target="_blank" href="https://bugzilla.mozilla.org/1942439">1942439</a></li>
+    <li>Nathan Johnson [:narjoDev]: <a target="_blank" href="https://bugzilla.mozilla.org/1895394">1895394</a></li>
+    <li>Pushkar Singh: <a target="_blank" href="https://bugzilla.mozilla.org/2003191">2003191</a></li>
+    <li>Sally Frye: <a target="_blank" href="https://bugzilla.mozilla.org/2003170">2003170</a></li>
+    <li>Thien Pham: <a target="_blank" href="https://bugzilla.mozilla.org/2001134">2001134</a></li>
+    <li>tushar sariya: <a target="_blank" href="https://bugzilla.mozilla.org/928224">928224</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1939501">1939501</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1975962">1975962</a></li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
