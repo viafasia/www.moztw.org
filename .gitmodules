@@ -12,5 +12,5 @@
 	url = https://github.com/jdm/asknot.git
 [submodule "blog"]
 	path = blog
-	url = https://github.com/moztw/blog.mozilla.com.tw/
+	url = https://github.com/moztw/mozilla.com.tw-blogs-archive.git
   branch = gh-pages
