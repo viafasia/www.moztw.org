@@ -12,7 +12,7 @@
   <ul class="tags">
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正使用 Intel Raptor Lake CPU 的使用者可能遇到的當機問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1950764">Bug 1950764</a>）</p>
+      <p>修正使用 Intel Raptor Lake CPU 的使用者遇到的當機問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1950764">Bug 1950764</a>）</p>
     </li>
 
     <li>

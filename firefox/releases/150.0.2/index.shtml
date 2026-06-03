@@ -12,7 +12,7 @@
   <ul class="tags">
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正內部或企業網路中需要登入提示的網站顯示空白頁面的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2034752">Bug 2034752</a>）</p>
+      <p>修正內部或企業網路中，需要登入提示的網站顯示空白頁面的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2034752">Bug 2034752</a>）</p>
     </li>
 
     <li>
@@ -52,7 +52,7 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>改善網址列搜尋建議圖示的顯示，避免圖示被拉伸或扭曲。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2035353">Bug 2035353</a>）</p>
+      <p>改善網址列顯示的搜尋建議圖示，避免圖示被拉伸或扭曲。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2035353">Bug 2035353</a>）</p>
     </li>
 
     <li>

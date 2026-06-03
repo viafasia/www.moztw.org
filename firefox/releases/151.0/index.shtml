@@ -1,6 +1,6 @@
 <!--#set var="release_date" value="2026-05-19" -->
 <!--#set var="version" value="151.0" -->
-<!--#set var="previous_version" value="150.0.3" -->
+<!--#set var="previous_version" value="150.0" -->
 
 <!-- 翻譯來源：https://www.firefox.com/en-US/firefox/151.0/releasenotes/ -->
 
@@ -12,31 +12,31 @@
   <ul class="tags">
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>Firefox 首頁（新分頁）採用全新外觀與版面，為 151 至 152 之間即將推出的小工具與捷徑改進等功能鋪路。也新增多款桌布，可點選右下角的鉛筆圖示查看。</p>
+      <p>Firefox 首頁（新分頁）採用全新外觀與版面，為 151 至 152 之間即將推出的小工具與捷徑改進等功能鋪路。也新增多款背景圖片，可點選右下角的鉛筆圖示查看。</p>
       <p><img src="/firefox/releases/151.0/151_newtab.png" alt="螢幕截圖：Firefox 151 新分頁頁面新外觀"></p>
       <p><img src="/firefox/releases/151.0/151_newtab_wallpaper.png" alt="螢幕截圖：Firefox 151 新分頁頁面顯示新桌布"></p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>隱私瀏覽模式現在可立即清除目前工作階段的所有資料，而不必關閉整個視窗。點選網址列右側的「結束隱私瀏覽工作階段」按鈕（火焰圖示）後，Firefox 會要求確認；確認後會清除所有隱私瀏覽資料，並開啟全新的隱私瀏覽工作階段。</p>
+      <p>隱私瀏覽模式現在可立即清除目前工作階段的所有資料，而不必關閉整個視窗。點選網址列右側的「清除隱私瀏覽階段」按鈕（火焰圖示），Firefox 會請求你再次確認；一經確認後，會清除所有隱私瀏覽資料，並開啟全新的隱私瀏覽工作階段。</p>
       <p><img src="/firefox/releases/151.0/151_private_browsing.png" alt="螢幕截圖：隱私瀏覽模式中清除目前工作階段資料的確認畫面"></p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>Firefox 在標準<a target="_blank" href="https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop">加強型追蹤保護</a>中強化對指紋辨識的防護，限制網站可取得的裝置與瀏覽器資訊，讓跨站追蹤更困難。以常見指紋辨識技術來看，能被唯一識別的使用者平均減少約 14%，在 macOS 上約減少 49%。</p>
+      <p>Firefox 已強化<a target="_blank" href="https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop">加強型追蹤保護</a>的標準模式中針對指紋辨識的防護，限制網站可取得的裝置與瀏覽器資訊，讓跨站追蹤更困難。以常見指紋辨識技術來看，能被唯一識別的使用者平均減少約 14%，在 macOS 上約減少 49%。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>現在可直接在 Firefox 的 PDF 檢視器中合併多個 PDF。<a target="_blank" href="https://support.mozilla.org/kb/pdf-editor#w_merge-pdfs">將多個 PDF 合併成單一文件</a>，無需離開 Firefox 或使用第三方工具。</p>
+      <p>現在可直接在 Firefox 的 PDF 檢視器中合併多個 PDF。無需離開 Firefox 或使用第三方工具，即可<a target="_blank" href="https://support.mozilla.org/kb/pdf-editor#w_merge-pdfs">將多個 PDF 合併成單一文件</a>。</p>
       <p><img src="/firefox/releases/151.0/151_pdf_merge.png" alt="螢幕截圖：Firefox PDF 檢視器中的 PDF 合併介面"></p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>翻譯頁面（<code>about:translations</code>）現在可從應用程式選單的「更多工具」區段開啟。</p>
+      <p>翻譯頁面（<code>about:translations</code>）現在可從應用程式選單的「更多工具」選單內開啟。</p>
     </li>
 
     <li>
@@ -46,7 +46,7 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>在 macOS 上，透過 Apple 通用剪貼簿從 iOS 裝置複製的 URL，現在可在 Firefox 中正確貼上。</p>
+      <p>在 macOS 上，透過 Apple 通用剪貼板從 iOS 裝置複製的 URL，現在可在 Firefox 中正確貼上。</p>
     </li>
 
     <li>
@@ -62,7 +62,7 @@
     <li>
       <span class="tag tag-new">全新功能</span>
       <p>內建 VPN 現在可選擇瀏覽位置，讓你更能控制流量在網路上的呈現方式。可從可用國家中選擇，或使用「建議」自動選擇最適合你網路的連線。</p>
-      <p class="progressive-roll">某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+      <p class="progressive-roll">此功能逐步釋出中：某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
     </li>
 
     <li>
@@ -92,12 +92,12 @@
 
     <li>
       <span class="tag tag-changed">變更</span>
-      <p>將 Firefox 桌面版設定檔目錄移動、還原到其他位置或作業系統後，安裝在該設定檔中的擴充套件與佈景主題現在可成功還原。</p>
+      <p>將 Firefox 桌面版設定檔目錄移動、還原到其他位置或作業系統後，該設定檔中的擴充套件與佈景主題現在會成功還原。</p>
     </li>
 
     <li>
       <span class="tag tag-changed">變更</span>
-      <p>Windows 上的地理定位現在會尊重使用者的 Windows 位置權限設定，而非覆寫它；若需要，Firefox 會提示使用者啟用 Windows 權限。</p>
+      <p>Windows 上的地理定位現在會尊重使用者的 Windows 位置權限設定，而非覆寫它；當使用者授予網頁位置存取權限時，若需要，Firefox 會提示使用者啟用 Windows 權限。</p>
     </li>
 
     <li>
@@ -112,18 +112,18 @@
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>Firefox 現在可透過 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Web_Serial_API">Web Serial API</a> 管理支援序列通訊的微控制器，可用於 ESP 裝置、Raspberry Pi Pico、3D 印表機、CNC 等。Web Serial 可用於擴充套件，但目前無法在 moz-extension 情境中使用。</p>
+      <p>你現在可透過 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Web_Serial_API">Web Serial API</a> 管理支援序列通訊的微控制器，這讓你可以為微控制器與開發版撰寫程式，例如 ESP 裝置、Raspberry Pi Pico、3D 印表機、CNC 與其他裝置。Web Serial 可用於擴充套件，但目前無法在 moz-extension contexts 中使用。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>區域網路存取限制現在向所有使用者逐步釋出。網站若要連線到你區域網路上的裝置，或連線到你裝置上的應用程式與服務，Firefox 會先要求網站取得權限；先前此保護僅限將加強型追蹤保護設為「嚴格」的使用者。</p>
-      <p class="progressive-roll">某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+      <p>區域網路存取限制現在向所有使用者逐步釋出。網站若要連線到你區域網路上的裝置，或連線到你裝置上的應用程式與服務時，Firefox 會先要求網站取得權限；先前此保護僅限將加強型追蹤保護設為「嚴格」的使用者。</p>
+      <p class="progressive-roll">此功能逐步釋出中：某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>新的 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Fullscreen_API">Fullscreen Keyboard Lock API</a> 為 <code>requestFullscreen</code> 新增選用參數，讓網站可要求在全螢幕時按下 Esc 不會立即退出（需長按），並允許某些原先保留給瀏覽器的快捷鍵可被 <code>preventDefault</code> 阻止。</p>
+      <p>新的 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Fullscreen_API">Fullscreen Keyboard Lock API</a> 為 <code>requestFullscreen</code> 新增選用參數，讓網站可要求按下 Esc 不立即退出全螢幕（取而代之的是需長按 Esc），並允許某些原先保留給瀏覽器的快捷鍵可被 <code>preventDefault</code> 阻止。</p>
     </li>
 
     <li>
@@ -143,7 +143,7 @@
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/CSSContainerRule/conditions"><code>CSSContainerRule.conditions</code></a> 屬性，保存所有 container query 條件的陣列，用以取代僅支援單一名稱與查詢、現已淘汰的 <code>containerName</code> 與 <code>containerQuery</code>。</p>
+      <p>新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/CSSContainerRule/conditions"><code>CSSContainerRule.conditions</code></a> 屬性，保存所有 container query 條件的陣列，用以取代僅支援單一名稱與查詢、現已淘汰的 <code>CSSContainerRule.containerName</code> 與 <code>CSSContainerRule.containerQuery</code>。</p>
     </li>
 
     <li>
@@ -153,7 +153,7 @@
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Document_Picture-in-Picture_API">Document Picture-in-Picture API</a>，讓網頁可將內容放在置頂的彈出視窗中。</p>
+      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Document_Picture-in-Picture_API">Document Picture-in-Picture API</a>，讓網頁可將內容放在永遠置頂（always-on-top）的彈出視窗中。</p>
     </li>
 
     <li>

@@ -21,7 +21,7 @@
       <p>Firefox 現在提供免費的<a target="_blank" href="https://support.mozilla.org/kb/built-in-vpn">內建 VPN</a>。無論你在旅行時使用公共 Wi‑Fi、搜尋敏感健康資訊，或進行私人購物，此功能都能讓你簡單獲得保護。登入並開啟後，使用 Firefox 瀏覽時，便可透過安全 Proxy 隱藏你的地理位置與 IP 位址。每月享有 50 GB 防護額度，並可針對特定網站開啟或關閉。此功能正於美國、英國、德國與法國逐步釋出。</p>
       <p><img src="/firefox/releases/149.0/149_vpn.png" alt="螢幕截圖：Firefox 內建 VPN 使用畫面"></p>
       <p><b>企業政策說明：</b>此功能在企業版環境中不能用，也不會向套用企業政策的使用者釋出。雖然目前可手動啟用，於 4 月 7 日起管理員將可透過企業政策停用。在此之前，組織可使用 <code>BlockAboutConfig</code> 政策避免手動啟用。</p>
-      <p class="progressive-roll">某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+      <p class="progressive-roll">此功能逐步釋出中：某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
     </li>
 
     <li>

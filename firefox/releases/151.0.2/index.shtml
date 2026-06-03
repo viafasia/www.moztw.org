@@ -22,7 +22,7 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正從網址列使用「切換到分頁」時，分割畫面可能關閉而非切換分頁的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2039787">Bug 2039787</a>）</p>
+      <p>修正從網址列使用「切換至該分頁」時，分割畫面可能關閉而非切換分頁的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2039787">Bug 2039787</a>）</p>
     </li>
 
     <li>

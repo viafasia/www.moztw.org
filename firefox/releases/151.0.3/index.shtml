@@ -12,7 +12,7 @@
   <ul class="tags">
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正表格儲存格內文字欄位選取或貼上文字時，可能破壞頁面版面的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2041235">Bug 2041235</a>）</p>
+      <p>修正在表格儲存格內的文字欄位選取或貼上文字時，可能破壞版面的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2041235">Bug 2041235</a>）</p>
     </li>
 
     <li>
