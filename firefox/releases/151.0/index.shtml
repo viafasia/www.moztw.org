@@ -1,6 +1,6 @@
 <!--#set var="release_date" value="2026-05-19" -->
 <!--#set var="version" value="151.0" -->
-<!--#set var="previous_version" value="150.0.2" -->
+<!--#set var="previous_version" value="150.0.3" -->
 
 <!-- 翻譯來源：https://www.firefox.com/en-US/firefox/151.0/releasenotes/ -->
 
@@ -14,21 +14,24 @@
       <span class="tag tag-new">全新功能</span>
       <p>Firefox 首頁（新分頁）採用全新外觀與版面，為 151 至 152 之間即將推出的小工具與捷徑改進等功能鋪路。也新增多款桌布，可點選右下角的鉛筆圖示查看。</p>
       <p><img src="/firefox/releases/151.0/151_newtab.png" alt="螢幕截圖：Firefox 151 新分頁頁面新外觀"></p>
+      <p><img src="/firefox/releases/151.0/151_newtab_wallpaper.png" alt="螢幕截圖：Firefox 151 新分頁頁面顯示新桌布"></p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
       <p>隱私瀏覽模式現在可立即清除目前工作階段的所有資料，而不必關閉整個視窗。點選網址列右側的「結束隱私瀏覽工作階段」按鈕（火焰圖示）後，Firefox 會要求確認；確認後會清除所有隱私瀏覽資料，並開啟全新的隱私瀏覽工作階段。</p>
+      <p><img src="/firefox/releases/151.0/151_private_browsing.png" alt="螢幕截圖：隱私瀏覽模式中清除目前工作階段資料的確認畫面"></p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>Firefox 在標準的<a target="_blank" href="https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop">加強型追蹤保護</a>中強化對指紋辨識的防護，限制網站可取得的裝置與瀏覽器資訊，讓跨站追蹤更困難。常見指紋技術下可被唯一識別的使用者數量平均減少約 14%，在 macOS 上約減少 49%。</p>
+      <p>Firefox 在標準<a target="_blank" href="https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop">加強型追蹤保護</a>中強化對指紋辨識的防護，限制網站可取得的裝置與瀏覽器資訊，讓跨站追蹤更困難。以常見指紋辨識技術來看，能被唯一識別的使用者平均減少約 14%，在 macOS 上約減少 49%。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>現在可直接在 Firefox 內合併多個 PDF，將多個檔案合併為單一文件，無需離開 Firefox 或使用第三方工具。</p>
+      <p>現在可直接在 Firefox 的 PDF 檢視器中合併多個 PDF。<a target="_blank" href="https://support.mozilla.org/kb/pdf-editor#w_merge-pdfs">將多個 PDF 合併成單一文件</a>，無需離開 Firefox 或使用第三方工具。</p>
+      <p><img src="/firefox/releases/151.0/151_pdf_merge.png" alt="螢幕截圖：Firefox PDF 檢視器中的 PDF 合併介面"></p>
     </li>
 
     <li>
@@ -38,7 +41,7 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>本機 Firefox 設定檔備份現在在 Linux 上也可用（先前僅 Windows），並可跨平台還原。</p>
+      <p>本機 <a target="_blank" href="https://support.mozilla.org/kb/firefox-backup">Firefox 設定檔備份</a>現在除了 Windows，也可在 Linux 上使用，並可跨平台還原。</p>
     </li>
 
     <li>
@@ -58,7 +61,7 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p><a target="_blank" href="https://support.mozilla.org/kb/built-in-vpn">內建 VPN</a> 現在可選擇瀏覽位置，讓你更能控制流量在網路上的呈現方式。可從可用國家中選擇，或使用「建議」自動選擇最適合你網路的連線。</p>
+      <p>內建 VPN 現在可選擇瀏覽位置，讓你更能控制流量在網路上的呈現方式。可從可用國家中選擇，或使用「建議」自動選擇最適合你網路的連線。</p>
       <p class="progressive-roll">某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
     </li>
 
@@ -114,28 +117,28 @@
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>區域網路存取限制現在向所有使用者逐步釋出。Firefox 要求網站在連線到你區域網路上的裝置，或你裝置上的應用程式與服務之前必須請求權限；先前此保護僅限將加強型追蹤保護設為「嚴格」的使用者。</p>
+      <p>區域網路存取限制現在向所有使用者逐步釋出。網站若要連線到你區域網路上的裝置，或連線到你裝置上的應用程式與服務，Firefox 會先要求網站取得權限；先前此保護僅限將加強型追蹤保護設為「嚴格」的使用者。</p>
       <p class="progressive-roll">某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>新的 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Fullscreen_API">Fullscreen Keyboard Lock API</a> 為 <code>requestFullscreen</code> 新增可選參數，讓網站可要求在全螢幕時按 Esc 不會立即退出（需長按），並允許某些原先保留給瀏覽器的快捷鍵被 <code>preventDefault</code>。</p>
+      <p>新的 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Fullscreen_API">Fullscreen Keyboard Lock API</a> 為 <code>requestFullscreen</code> 新增選用參數，讓網站可要求在全螢幕時按下 Esc 不會立即退出（需長按），並允許某些原先保留給瀏覽器的快捷鍵可被 <code>preventDefault</code> 阻止。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>Firefox 改善多欄容器與列印時絕對定位元素的渲染，定位與分頁更準確。</p>
+      <p>Firefox 改善絕對定位元素在多欄容器與列印時的渲染，讓定位與分段更準確。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p><a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/CSS_containment/Container_queries"><code>@container</code></a> 規則現在可指定多個 container query 條件清單，而非單一條件。</p>
+      <p><a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/CSS_containment/Container_queries"><code>@container</code></a> 規則現在可指定多個 container query 條件清單，而不再限於單一條件。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>Firefox 現在支援 container style queries，可根據容器自訂屬性的計算值套用樣式；可在 <code>@container</code> 規則內使用一或多個 <code>style()</code> 函式。</p>
+      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/CSS_containment/Container_queries#container_style_queries">container style queries</a>，可根據容器自訂屬性的計算值套用樣式；做法是在 <code>@container</code> 規則內使用一或多個 <code>style()</code> 函式。</p>
     </li>
 
     <li>
@@ -197,7 +200,7 @@
     <li>kofoworola shonuyi: <a target="_blank" href="https://bugzilla.mozilla.org/1999012">1999012</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2019901">2019901</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2028293">2028293</a></li>
     <li>konyhéa: <a target="_blank" href="https://bugzilla.mozilla.org/1856191">1856191</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1876108">1876108</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1883497">1883497</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1891970">1891970</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2014334">2014334</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2030069">2030069</a></li>
     <li>Mary cathline: <a target="_blank" href="https://bugzilla.mozilla.org/2022115">2022115</a></li>
-    <li>Miha Lepej [:mile]: <a target="_blank" href="https://bugzilla.mozilla.org/2026335">2026335</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2029254">2029254</a></li>
+    <li>Miha Lepej [:lepko]: <a target="_blank" href="https://bugzilla.mozilla.org/2026335">2026335</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2029254">2029254</a></li>
     <li>mozilla.7fhrv: <a target="_blank" href="https://bugzilla.mozilla.org/2023374">2023374</a></li>
     <li>Noble Chinonso: <a target="_blank" href="https://bugzilla.mozilla.org/1945835">1945835</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1953621">1953621</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2019235">2019235</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2025701">2025701</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2028628">2028628</a></li>
     <li>Okhuomon Ajayi: <a target="_blank" href="https://bugzilla.mozilla.org/2018272">2018272</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2026649">2026649</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2029684">2029684</a></li>

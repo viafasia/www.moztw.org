@@ -42,8 +42,9 @@
 
     <li>
       <span class="tag tag-changed">變更</span>
-      <p>所有 <a target="_blank" href="https://support.mozilla.org/kb/firefox-relay">Firefox Relay</a> 使用者現在最多可建立 50 個 email mask（先前上限為 5 個）。</p>
+      <p>所有 <a target="_blank" href="https://support.mozilla.org/kb/firefox-relay">Firefox Relay</a> 使用者現在最多可建立 50 個電子郵件遮罩（先前上限為 5 個）。</p>
     </li>
+
   </ul>
 
   <ul class="tags">

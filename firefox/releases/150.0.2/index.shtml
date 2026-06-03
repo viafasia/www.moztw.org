@@ -27,7 +27,7 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正部分網路攝影機在視訊通話中無法正常運作的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2034722">Bug 2034722</a>）</p>
+      <p>修正部分網路攝影機在視訊通話中無法正常使用的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2034722">Bug 2034722</a>）</p>
     </li>
 
     <li>
@@ -59,6 +59,7 @@
       <span class="tag tag-fixed">修正</span>
       <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-40/">安全性修正</a>。</p>
     </li>
+
   </ul>
 
   <ul class="tags">

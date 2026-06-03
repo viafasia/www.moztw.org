@@ -19,6 +19,7 @@
       <span class="tag tag-fixed">修正</span>
       <p>修正 Windows 上部分網站使用 WebSerial 燒錄裝置韌體時可能意外失敗的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2040754">Bug 2040754</a>）</p>
     </li>
+
   </ul>
 
   <ul class="tags">

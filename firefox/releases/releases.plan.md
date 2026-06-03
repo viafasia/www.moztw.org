@@ -35,7 +35,7 @@
   - `version` 設為新版版本號
   - `previous_version` 設為前一版版本號
 - 內容以繁體中文整理以下段落與重點，沿用 `tag-new/tag-fixed/tag-changed/tag-enterprise/tag-developer/tag-html5` 等樣式：
-  - `(Learn More)` 一律翻譯成「深入了解」。
+  - `(Learn More)` 一律翻譯成「深入瞭解」。
   - 全新功能：
   - 修正：
   - 企業版：

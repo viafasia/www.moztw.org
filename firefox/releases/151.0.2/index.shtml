@@ -59,6 +59,7 @@
       <span class="tag tag-fixed">修正</span>
       <p>修正於 iframe 內建立、再移入父頁面的 <code>&lt;select&gt;</code> 元素，下拉選單無法開啟的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2041720">Bug 2041720</a>）</p>
     </li>
+
   </ul>
 
   <ul class="tags">
