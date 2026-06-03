@@ -1,0 +1,541 @@
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/151.0/releasenotes/ -->
+
+<!DOCTYPE html>
+<html class="os-windows no-js" lang="zh-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/tabzilla.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="//fonts.googleapis.com/css?family=Open+Sans:400,300" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/style.css" />
+  <script type="text/javascript" src="/sandstone/js/os_detector.js"></script>
+  <!--[if lt IE 9]>
+    <script src="/js/library/html5shiv/html5shiv-printshiv.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script data-main="/sandstone/js/main.js" src="/sandstone/js/lib/require.js"></script>
+
+
+<meta name="description" content="Firefox 版本資訊 2026 年 5 月 19 日 v151.0 此版本資訊包含了 Firefox 新鮮事、已知問題、下載安裝指示、以及常見問題等訊息。 我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的英文討論區或 MozTW 的 Firefox 中文討論區與我們分享意見。" />
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MozTW">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://moztw.org/firefox/releases/">
+<meta property="og:image" content="http://moztw.org/images/page-image-quantum.png">
+<meta property="og:title" content="Mozilla Firefox 版本資訊 (151.0)">
+<meta property="og:description" content="Firefox 版本資訊 2026 年 5 月 19 日 v151.0 此版本資訊包含了 Firefox 新鮮事、已知問題、下載安裝指示、以及常見問題等訊息。 我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的英文討論區或 MozTW 的 Firefox 中文討論區與我們分享意見。">
+<meta property="fb:page_id" content="109362359103769">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@moztw">
+<meta name="twitter:domain" content="moztw.org">
+<meta name="twitter:app:name:googleplay" content="Firefox">
+<meta name="twitter:app:id:googleplay" content="org.mozilla.firefox">
+
+<title>Mozilla Firefox v151.0 版本資訊</title>
+
+<link href="/sandstone/css/releasenotes.css" rel="stylesheet" />
+<link href="/thunderbird/css/features.css" rel="stylesheet" />
+<!--[if lte IE 7]>
+<style>
+.header-site-title { float: left; }
+.header-menu li { float: left; }
+.header-menu li a { color: #807E78; }
+.header-menu .header-menu-item:hover a {
+  background-color: #C1BEB5;
+  color: #007BB7;
+}
+</style>
+<![endif]-->
+<!--[if lte IE 8]>
+<style>
+.header-search { display: none; }
+</style>
+<![endif]-->
+
+</head><body id="www-moztw-org">
+
+  <header id="header">
+    <div class="container">
+      <a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>
+      <h1 class="header-site-title"><a href="/" title="回首頁">MozTW</a></h1>
+      <a class="header-menu-btn" href=""><i class="icon-reorder"></i></a>
+      <div class="header-search">
+        <div class="header-search-btn">
+          <i class="icon-search header-search-icon"></i>
+        </div>
+        <div class="header-search-form-background">
+        </div>
+        <form class="header-search-form" action="//forum.moztw.org/google_results.php">
+          <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa">
+          <input type="hidden" name="cof" value="FORID:9">
+          <input type="hidden" name="ie" value="UTF-8">
+          <input placeholder="搜尋…" class="header-search-form-input" type="text" id="q" name="q" accesskey="s" size="30" maxlength="64">
+        </form>
+      </div>
+      <ul class="header-menu">
+        <li id="header-menu-dl" class="header-menu-item"><a href="/dl">下載</a></li>
+        <li id="header-menu-forum" class="header-menu-item"><a href="//forum.moztw.org/">討論區</a></li>
+        <li id="header-menu-events" class="header-menu-item"><a href="/events">活動</a></li>
+<!--        <li id="header-menu-wiki" class="header-menu-item"><a href="http://wiki.moztw.org/">共筆系統</a></li>-->
+        <li id="header-menu-space" class="header-menu-item"><a href="/space">摩茲工寮</a></li>
+        <li id="header-menu-planet" class="header-menu-item"><a href="http://planet.moztw.org/">摩茲星球</a></li>
+        <li id="header-menu-contribute" class="header-menu-item"><a href="/contribute">參與我們</a></li>
+        <li id="header-menu-about" class="header-menu-item"><a href="/about">關於本站</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+<section class="container block firefox" id="releasenotes">
+	<article class="module">
+		<div class="intro">
+			<h2>Firefox 151.0 版本資訊</h2>
+			<p id="release-date">
+        <time datetime='2026-05-19'>
+          2026 年
+          5 月
+          19 日
+				</time>
+				v151.0
+			</p>
+			<p>此頁面包含了 <a href="#whatsnew">Firefox 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
+			<p>我們想知道您對 Firefox 的想法。歡迎到 Mozilla Discourse 上的 <a href="https://discourse.mozilla.org/c/firefox-development/178" target="_blank">Firefox Development</a> 英文討論區，或 MozTW 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
+		</div>
+		<div class="download firefox">
+			
+
+<!-- latest release notes page that we had published -->
+
+    <script type='text/javascript'>
+    	function initDownloadInIE () {
+    		/*
+    		For IE, open up a small popup and point it to the mozilla server
+    		We cannot use window.onload to initiate download from latest-win.html (security bar will pop)
+    		*/
+    		if (navigator.appVersion.indexOf('MSIE') !== -1) {
+    			window.open(
+    				'https://download.mozilla.org/?product=firefox-151.0.3&os=win&lang=zh-TW',
+    				'_blank',
+    				'height=150, width=260, location=no, menubar=no, resizable=no, scrollbars=no, status=no, toolbar=no'
+    			);
+    		}
+    	}
+    </script>
+
+    <div id="download-button-desktop-release" class="download-button download-button-small">
+      <ul class="download-list" role="presentation">
+        <li class="os_windows">
+          <a class="download-link" href="/firefox/download/latest-win.html" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '15103-Windows');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Windows</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_windows64">
+          <a class="download-link" href="/firefox/download/latest-win.html" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '15103-Windows64');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Windows（64 位元）</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_linux">
+          <a class="download-link" href="/firefox/download/latest-linux.html" onClick="ga('send', 'event', 'Download', 'Firefox', '15103-Linux');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Linux</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_linux64">
+          <a class="download-link" href="/firefox/download/latest-linux64.html" onClick="ga('send', 'event', 'Download', 'Firefox', '15103-Linux64');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Linux（64 位元）</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_osx">
+          <a class="download-link" href="/firefox/download/latest-osx.html" onClick="ga('send', 'event', 'Download', 'Firefox', '15103-Mac');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Mac OS X</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_android">
+          <a class="download-link" href="https://play.google.com/store/apps/details?id=org.mozilla.firefox" onClick="ga('send', 'event', 'Download', 'Firefox', 'Android');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Android</span>
+            </span>
+          </a>
+        </li>
+      </ul>
+      <small class="download-other">
+        <a href="https://www.mozilla.org/en-US/firefox/all/">系統語系</a> |
+        <a href="/firefox/releases">最新功能</a> |
+        <a href="https://www.mozilla.org/en-US/legal/privacy/firefox.html">隱私政策</a>
+      </small>
+    </div>
+
+		</div>
+	</article>
+	<div class="grids">
+		<div class="grid-9">
+
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 首頁（新分頁）採用全新外觀與版面，為 151 至 152 之間即將推出的小工具與捷徑改進等功能鋪路。也新增多款背景圖片，可點選右下角的鉛筆圖示查看。</p>
+      <p><img src="/firefox/releases/151.0/151_newtab.png" alt="螢幕截圖：Firefox 151 新分頁頁面新外觀"></p>
+      <p><img src="/firefox/releases/151.0/151_newtab_wallpaper.png" alt="螢幕截圖：Firefox 151 新分頁頁面顯示新桌布"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>隱私瀏覽模式現在可立即清除目前工作階段的所有資料，而不必關閉整個視窗。點選網址列右側的「清除隱私瀏覽階段」按鈕（火焰圖示），Firefox 會請求你再次確認；一經確認後，會清除所有隱私瀏覽資料，並開啟全新的隱私瀏覽工作階段。</p>
+      <p><img src="/firefox/releases/151.0/151_private_browsing.png" alt="螢幕截圖：隱私瀏覽模式中清除目前工作階段資料的確認畫面"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 已強化<a target="_blank" href="https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop">加強型追蹤保護</a>的標準模式中針對指紋辨識的防護，限制網站可取得的裝置與瀏覽器資訊，讓跨站追蹤更困難。以常見指紋辨識技術來看，能被唯一識別的使用者平均減少約 14%，在 macOS 上約減少 49%。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在可直接在 Firefox 的 PDF 檢視器中合併多個 PDF。無需離開 Firefox 或使用第三方工具，即可<a target="_blank" href="https://support.mozilla.org/kb/pdf-editor#w_merge-pdfs">將多個 PDF 合併成單一文件</a>。</p>
+      <p><img src="/firefox/releases/151.0/151_pdf_merge.png" alt="螢幕截圖：Firefox PDF 檢視器中的 PDF 合併介面"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>翻譯頁面（<code>about:translations</code>）現在可從應用程式選單的「更多工具」選單內開啟。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>本機 <a target="_blank" href="https://support.mozilla.org/kb/firefox-backup">Firefox 設定檔備份</a>現在除了 Windows，也可在 Linux 上使用，並可跨平台還原。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在 macOS 上，透過 Apple 通用剪貼板從 iOS 裝置複製的 URL，現在可在 Firefox 中正確貼上。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在 macOS 上，網頁的下拉選單現在採用原生 macOS 選單樣式，與系統其他部分的外觀與行為一致。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/automatically-fill-your-address-web-forms">自動填寫地址</a>（Address Autofill）已對荷蘭使用者開啟。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>內建 VPN 現在可選擇瀏覽位置，讓你更能控制流量在網路上的呈現方式。可從可用國家中選擇，或使用「建議」自動選擇最適合你網路的連線。</p>
+      <p class="progressive-roll">此功能逐步釋出中：某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正多螢幕設定下，向網站回報錯誤螢幕解析度的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 macOS 多螢幕設定中，Firefox 視窗最大化後重新啟動可能出現在錯誤螢幕的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>改善 macOS 上複製與貼上圖片的色彩管理。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-46/">安全性修正</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>Firefox 設定（<code>about:preferences</code>）中的搜尋列現在更大，並橫跨設定內容區的完整寬度，方便尋找選項。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>將 Firefox 桌面版設定檔目錄移動、還原到其他位置或作業系統後，該設定檔中的擴充套件與佈景主題現在會成功還原。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>Windows 上的地理定位現在會尊重使用者的 Windows 位置權限設定，而非覆寫它；當使用者授予網頁位置存取權限時，若需要，Firefox 會提示使用者啟用 Windows 權限。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-151-release-notes">Firefox 151 企業版版本資訊</a> 中找到政策更新與企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/151">Firefox 151 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>你現在可透過 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Web_Serial_API">Web Serial API</a> 管理支援序列通訊的微控制器，這讓你可以為微控制器與開發版撰寫程式，例如 ESP 裝置、Raspberry Pi Pico、3D 印表機、CNC 與其他裝置。Web Serial 可用於擴充套件，但目前無法在 moz-extension contexts 中使用。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>區域網路存取限制現在向所有使用者逐步釋出。網站若要連線到你區域網路上的裝置，或連線到你裝置上的應用程式與服務時，Firefox 會先要求網站取得權限；先前此保護僅限將加強型追蹤保護設為「嚴格」的使用者。</p>
+      <p class="progressive-roll">此功能逐步釋出中：某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>新的 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Fullscreen_API">Fullscreen Keyboard Lock API</a> 為 <code>requestFullscreen</code> 新增選用參數，讓網站可要求按下 Esc 不立即退出全螢幕（取而代之的是需長按 Esc），並允許某些原先保留給瀏覽器的快捷鍵可被 <code>preventDefault</code> 阻止。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 改善絕對定位元素在多欄容器與列印時的渲染，讓定位與分段更準確。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p><a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/CSS_containment/Container_queries"><code>@container</code></a> 規則現在可指定多個 container query 條件清單，而不再限於單一條件。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/CSS_containment/Container_queries#container_style_queries">container style queries</a>，可根據容器自訂屬性的計算值套用樣式；做法是在 <code>@container</code> 規則內使用一或多個 <code>style()</code> 函式。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>新增 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/CSSContainerRule/conditions"><code>CSSContainerRule.conditions</code></a> 屬性，保存所有 container query 條件的陣列，用以取代僅支援單一名稱與查詢、現已淘汰的 <code>CSSContainerRule.containerName</code> 與 <code>CSSContainerRule.containerQuery</code>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>更新 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/CSS_anchor_positioning">CSS Anchor Positioning</a> 中隱含 anchor 的行為：<code>position-anchor</code> 預設為 <code>normal</code>；使用 <code>position-area</code> 時會自動套用隱含 anchor，而使用 <code>anchor()</code> 或 <code>anchor-center</code> 的 popover 現在需設 <code>position-anchor: auto</code> 才能啟用。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Document_Picture-in-Picture_API">Document Picture-in-Picture API</a>，讓網頁可將內容放在永遠置頂（always-on-top）的彈出視窗中。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>暫時性網站權限現在會正確反映在 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Permissions_API">Permissions API</a> 中。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援以宣告式方式定義 shadow root 的 slot 指派行為。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20151&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox151&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla151&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/150.0/'>Firefox 150.0 版本更新資訊</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 151 的發布，我們喜迎以下首次貢獻程式到 Firefox 的開發者，其中有 37 位是全新的志工！一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Allison Embrey: <a target="_blank" href="https://bugzilla.mozilla.org/1938268">1938268</a></li>
+    <li>any1here: <a target="_blank" href="https://bugzilla.mozilla.org/2031162">2031162</a></li>
+    <li>aoia7rz7l: <a target="_blank" href="https://bugzilla.mozilla.org/1978290">1978290</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1984679">1984679</a></li>
+    <li>Armin Ulrich: <a target="_blank" href="https://bugzilla.mozilla.org/2031598">2031598</a></li>
+    <li>Brandon Lucier: <a target="_blank" href="https://bugzilla.mozilla.org/2030631">2030631</a></li>
+    <li>Chidimma Okoloigwe: <a target="_blank" href="https://bugzilla.mozilla.org/1901274">1901274</a></li>
+    <li>Chukwuka Rosemary: <a target="_blank" href="https://bugzilla.mozilla.org/1846829">1846829</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1948019">1948019</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2026574">2026574</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2028153">2028153</a></li>
+    <li>david.nicolson: <a target="_blank" href="https://bugzilla.mozilla.org/2026024">2026024</a></li>
+    <li>DrSeed: <a target="_blank" href="https://bugzilla.mozilla.org/1962904">1962904</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1968244">1968244</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1982888">1982888</a></li>
+    <li>EJiro Oghenekome: <a target="_blank" href="https://bugzilla.mozilla.org/1910902">1910902</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1938466">1938466</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1952061">1952061</a></li>
+    <li>gotyaoi: <a target="_blank" href="https://bugzilla.mozilla.org/1807516">1807516</a></li>
+    <li>Hailia: <a target="_blank" href="https://bugzilla.mozilla.org/2016934">2016934</a></li>
+    <li>Itoro James: <a target="_blank" href="https://bugzilla.mozilla.org/1936929">1936929</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2015491">2015491</a></li>
+    <li>japandi: <a target="_blank" href="https://bugzilla.mozilla.org/1977741">1977741</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1986020">1986020</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2015071">2015071</a></li>
+    <li>John Iweh: <a target="_blank" href="https://bugzilla.mozilla.org/1997925">1997925</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2027867">2027867</a></li>
+    <li>jonathancabera: <a target="_blank" href="https://bugzilla.mozilla.org/2012399">2012399</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2016058">2016058</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2026032">2026032</a></li>
+    <li>Keji Bakare: <a target="_blank" href="https://bugzilla.mozilla.org/2006572">2006572</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2008756">2008756</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2025287">2025287</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2031116">2031116</a></li>
+    <li>Kevin Doughty: <a target="_blank" href="https://bugzilla.mozilla.org/1984925">1984925</a></li>
+    <li>kofoworola shonuyi: <a target="_blank" href="https://bugzilla.mozilla.org/1999012">1999012</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2019901">2019901</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2028293">2028293</a></li>
+    <li>konyhéa: <a target="_blank" href="https://bugzilla.mozilla.org/1856191">1856191</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1876108">1876108</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1883497">1883497</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1891970">1891970</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2014334">2014334</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2030069">2030069</a></li>
+    <li>Mary cathline: <a target="_blank" href="https://bugzilla.mozilla.org/2022115">2022115</a></li>
+    <li>Miha Lepej [:lepko]: <a target="_blank" href="https://bugzilla.mozilla.org/2026335">2026335</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2029254">2029254</a></li>
+    <li>mozilla.7fhrv: <a target="_blank" href="https://bugzilla.mozilla.org/2023374">2023374</a></li>
+    <li>Noble Chinonso: <a target="_blank" href="https://bugzilla.mozilla.org/1945835">1945835</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1953621">1953621</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2019235">2019235</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2025701">2025701</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2028628">2028628</a></li>
+    <li>Okhuomon Ajayi: <a target="_blank" href="https://bugzilla.mozilla.org/2018272">2018272</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2026649">2026649</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2029684">2029684</a></li>
+    <li>Oluwatobi: <a target="_blank" href="https://bugzilla.mozilla.org/1975391">1975391</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2019936">2019936</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2023913">2023913</a></li>
+    <li>Osoble: <a target="_blank" href="https://bugzilla.mozilla.org/1876109">1876109</a></li>
+    <li>Philipp Hancke [:fippo]: <a target="_blank" href="https://bugzilla.mozilla.org/1056433">1056433</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2028060">2028060</a></li>
+    <li>Pranjali Srivastava: <a target="_blank" href="https://bugzilla.mozilla.org/944228">944228</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1874155">1874155</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2009917">2009917</a></li>
+    <li>Rishan: <a target="_blank" href="https://bugzilla.mozilla.org/2030428">2030428</a></li>
+    <li>ROSHAAN: <a target="_blank" href="https://bugzilla.mozilla.org/1997346">1997346</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2018276">2018276</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2028927">2028927</a></li>
+    <li>Sameeksha: <a target="_blank" href="https://bugzilla.mozilla.org/2008178">2008178</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2021421">2021421</a></li>
+    <li>Sayd Mateen: <a target="_blank" href="https://bugzilla.mozilla.org/2021681">2021681</a></li>
+    <li>SuGotLand: <a target="_blank" href="https://bugzilla.mozilla.org/2025558">2025558</a></li>
+    <li>tk: <a target="_blank" href="https://bugzilla.mozilla.org/1826983">1826983</a></li>
+    <li>Vector: <a target="_blank" href="https://bugzilla.mozilla.org/2008128">2008128</a></li>
+    <li>wenzhao: <a target="_blank" href="https://bugzilla.mozilla.org/2031373">2031373</a></li>
+  </ul>
+
+</article>
+
+			<article id="downloadandinstall" class="module">
+				<h2>下載與安裝</h2>
+
+				<h3 id="requirements">系統需求</h3>
+				<p>在安裝 Firefox 前請先確定您的電腦是否合乎<a target="_blank" href="https://www.mozilla.org/zh-TW/firefox/151.0/system-requirements/">系統需求</a>。</p>
+
+				<h3 id="download">下載 Firefox</h3>
+				<p>您可以<a href="/firefox/">由此下載最新的 Firefox</a>，或取得 Windows、Linux 及 Mac OS X 平台上的<a target="_blank" href="https://www.mozilla.org/zh-TW/firefox/all/">各國語言版本</a>，或<a target="_blank" href="https://www.mozilla.org/zh-TW/firefox/channel/desktop/">由此下載 Firefox 未來發行版本</a>（測試版）。若需自行編譯其他平台或語言的版本，請見本文件最末節。</p>
+
+				<h3 id="install">安裝 Firefox</h3>
+				<p>請注意：安裝新版 Firefox 將<em>覆蓋</em>現存的 Firefox 程式，您不會遺失書籤或瀏覽記錄，但有些附加元件可能要更新才能繼續使用。詳細安裝步驟請參見<a target="_blank" href="https://support.mozilla.org/zh-TW/products/firefox/install-and-update-firefox">如何安裝與更新 Firefox</a>。</p>
+
+				<h3 id="uninstall">移除 Firefox</h3>
+				<p>在 Windows 作業系統中，您可以使用「新增或移除程式」移除 Firefox。macOS 的使用者請將 Firefox 程式移至垃圾筒；Linux 使用者則請移除包含 Firefox 的資料夾。</p>
+				<p>一般狀況下，移除 Firefox 時不會把書籤、瀏覽記錄、擴充套件和其他附加元件一併刪除，這些資料會保留在您的「<em>個人設定資料夾</em>」內，此資料夾可以在「<span class="location-item">說明</span>」選單的「<span class="location-item">更多疑難排解資訊</span>」找到，按下「<span class="location-item">應用程式一般資訊</span>」中「設定檔目錄」旁的按鈕便可開啟它。</p>
+				<p>請留意，若您沒有手動刪除個人設定資料夾，移除後重新安裝 Firefox 將繼續沿用原本的設定檔。</p>
+
+				<h3 id="extensions">附加元件及佈景主題</h3>
+				<p>您可以由「附加元件管理員」或<a target="_blank" href="http://addons.mozilla.org">附加元件網站</a>取得附加元件及佈景主題。 當 Firefox 升級時，附加元件可能因不相容於新版 Firefox 而被停用，此時則需要原作者進行升級。</p>
+			</article>
+
+
+			<article id="troubleshooting" class="module">
+				<h2>疑難排解</h2>
+				<ul class="compact">
+					<li>設計不良或不相容的套件將導致瀏覽器發生問題，包含當機或網頁瀏覽速度變慢等等狀況。如果您碰上瀏覽器無法開啟、視窗顯示不正常等等狀況，便可能是擴充套件或佈景主題的問題。這時請參考「<a href="https://support.mozilla.org/zh-TW/kb/troubleshoot-firefox-issues-using-safe-mode">Firefox 輔助說明：安全模式</a>」一文開啟 Firefox 安全模式。在安全模式下，所有附加元件及佈景主題將被停用。請您在安全模式下移除有問題的擴充套件或佈景主題，再正常地啟動瀏覽器。</li>
+					<li>如果您遇到與書籤、下載、視窗位置、工具列、瀏覽記錄或其他奇怪問題，建議您在回報問題前先建立新的使用者設定檔試試。請參考「<a href="https://support.mozilla.org/zh-TW/kb/profile-manager-create-and-remove-firefox-profiles">Firefox 輔助說明：使用設定檔管理員建立或移除 Firefox 設定檔</a>」一文建立新的使用者設定檔，並將各種設定（書籤、儲存的密碼等）從舊的設定檔中分次轉移到新的設定檔（可透過 <a href="https://support.mozilla.org/zh-TW/kb/firefox-sync-take-your-bookmarks-and-tabs-with-you">Firefox Sync 同步功能</a>進行）。</li>
+				</ul>
+				<h3 id="FAQ">常見問題集</h3>
+				<ol class="faq">
+					<li>我該怎麼幫忙呢？
+						<p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先查閱 <a href="http://support.mozilla.org/">Firefox 輔助說明</a>看看有沒有相關解答，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報你發現的錯誤；您也可以使用<a href="http://input.mozilla.com/zh-TW/feedback">意見回饋功能</a>表達意見。</p>
+					</li>
+					<li>我如何預覽未來的 Firefox 版本？
+						<p>加入 <a href="http://www.mozilla.com/firefox/channel/">Aurora 或 Beta 開發頻道</a>就可以搶先試用  Firefox 開發中版本。</p>
+					</li>
+					<li>我該到哪裡才能用中文問問題跟表示意見？
+						<p>請使用 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 討論區</a>，MozTW 社群團隊與熱心的 Firefox 用戶會定期閱讀上面的文章。</p>
+					</li>
+					<li>我該去哪裡取得新的佈景主題與擴充功能 (附加元件)？
+						<p>請到 <a href="https://addons.mozilla.org/firefox/">Mozilla 附加元件中心</a>下載 Firefox 的擴充套件及佈景主題。</p>
+					</li>
+					<li>Firefox 是哪些人做出來的？
+						<p>Firefox 是由世界各地的 <a href="https://www.mozilla.org/contact/communities/">Mozilla 社群</a>成員與員工合力開發。<a href="https://www.mozilla.org/credits/">這裡有份長長的名單</a>，列出部分曾對 Firefox 有重要貢獻的人。<a href="https://www.mozilla.org/contribute/">想要加入我們的大家庭嗎？</a>或者<a href="/contribute/">加入 Mozilla 台灣社群？</a></p>
+					</li>
+					<li>Firefox 的原始碼在何處？
+						<p>請參照 <a href="https://developer.mozilla.org/en-US/docs/Developer_Guide/Source_Code/Mercurial">Getting Mozilla Source Code Using Mercurial</a> 一文取得 Firefox 原始碼；如需編譯 Firefox，請參考 <a href="https://developer.mozilla.org/en-US/docs/Developer_Guide/Build_Instructions">Build Instructions</a>。</p>
+					</li>
+					<li>電子郵件程式呢？
+						<p>Firefox 能與您預設的任何郵件程式協同運作，而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="/thunderbird/">Mozilla Thunderbird</a>。</p>
+					</li>
+				</ol>
+
+				<h3 id="contributedbuilds">非官方建製版</h3>
+				<p>您可以在 MozTW 討論區的<a href="http://forum.moztw.org/viewforum.php?f=43">社群自訂版本</a>討論版找到網友自行編譯調整的非官方版 Firefox。</p>
+			</article>
+		</div>
+
+		<div class="grid-3 sidebar">
+			<article class="module hide-mobile">
+				<ul id="nav">
+					<li><a href="/firefox/">&lt; 回到 <span> Firefox 首頁 </span></a></li>
+					<li><a href="#downloadandinstall">下載<span>安裝</span></a></li>
+					<li><a href="#knownissues">已知<span>問題</span></a></li>
+					<li><a href="#troubleshooting">疑難<span>排解</span></a></li>
+					<li><a href="#FAQ">常見<span>問題</span></a></li>
+					<li><a href="#contributedbuilds">非官方<span>建製版</span></a></li>
+					<li><a href="#links">其他資源<span>連結</span></a></li>
+				</ul>
+			</article>
+
+			<article class="module">
+				<h2 id="links">資源和連結</h2>
+				<ul>
+					<li><a title="Mozilla Hacks 新版開發者資訊" href="https://hacks.mozilla.org/zh-hant/category/未分類/">Firefox 新版開發者資訊</a></li>
+					<li><a title="Mozilla Links 正體中文版" href="http://mozlinks.moztw.org/">Mozilla Links 正體中文版</a></li>
+					<li><a title="Mozilla 技術支援" href="http://support.mozilla.org/zh-TW/">Mozilla 技術支援</a></li>
+					<li><a title="MDN Web Docs" href="https://developer.mozilla.org/zh-TW/">MDN Web Docs</a></li>
+					<li><a title="Future Releases Blog" href="http://blog.mozilla.org/futurereleases/">Future Releases Blog</a></li>
+				</ul>
+			</article>
+		</div>
+	</div>
+</section>
+
+<footer id="footer" class="block">
+  <div class="container">
+    <div class="grids">
+      <div class="grid-logo">
+        <a href="//moztw.org/">
+          <img src="/sandstone/images/footer-moztw.png" alt="MozTW.org" />
+        </a>
+      </div>
+
+      <div class="grid-text">
+        <p>除另有註明外，本站內容皆採 <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/deed.zh_TW" onclick="ga('send', 'event', 'Outgoing', 'CC', 'sandstone-footer');">創用 CC 姓名標示-相同方式分享 3.0 台灣 授權條款</a> 或更新版本授權大眾使用</p>
+        <p><a rel="source" href="https://github.com/moztw/www.moztw.org" onclick="ga('send', 'event', 'Outgoing', 'GitHub','sandstone-footer');">貢獻本網站 Source</a> |
+          <a rel="contact" href="/about" onclick="ga('send', 'event', 'FooterLink', 'Contact', 'sandstone-footer');">聯絡資訊 Contact</a> |
+          Powered by <a href="http://ubuntu-tw.org/" onclick="ga('send', 'event', 'Outgoing', 'Ubuntu-TW', 'new-footer');">Ubuntu-TW</a> / <a href="http://bluet.org/" onclick="ga('send', 'event', 'Outgoing', 'BlueT', 'new-footer');">BlueT</a> and <a href="http://www.cc.ncnu.edu.tw/" onclick="ga('send', 'event', 'Outgoing', 'NCNU-CC', 'new-footer');">NCNU-CC</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="/sandstone/js/tabzilla.js"></script>
+<script>
+  // let tabzilla not clickable
+  Tabzilla.onReady = function() {
+    Tabzilla.setStatic();
+  }
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-1035080-1', 'moztw.org');
+ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+
