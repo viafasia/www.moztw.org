@@ -30,7 +30,7 @@ body{
   width:expression( this.clientWidth > 940 ? 940 : auto );
   margin: 0 auto 3em;
 
-  &>header{
+  & > .vevent > header{
     padding-top: 20px;
     background: $mainColor;
     color: #fff;
@@ -168,6 +168,11 @@ body{
     div.header-content{
       margin: 1em 0;
       height: 2.4em;
+      abbr.dtstart,
+      abbr.dtend {
+        text-decoration: none;
+        border-bottom: none;
+      }
       .location {
         display: none;
       }
@@ -418,7 +423,7 @@ body{
   body{
     font-size: 20px;
     line-height: 1.3em;
-    &>header{
+    & > .vevent > header{
       // background: url('../header.gif') center bottom no-repeat #68912d;
       background: url('../header.png') center bottom no-repeat #7aa838;
       div#moztwHeader{

@@ -91,7 +91,7 @@ body a {
   color: #527026;
 }
 /* line 33, ../sass/screen.scss */
-body > header {
+body > .vevent > header {
   padding-top: 20px;
   background: #89bc40;
   color: #fff;
@@ -107,11 +107,11 @@ body > header {
   text-align: center;
 }
 /* line 46, ../sass/screen.scss */
-body > header a {
+body > .vevent > header a {
   color: inherit;
 }
 /* line 50, ../sass/screen.scss */
-body > header div#moztwHeader {
+body > .vevent > header div#moztwHeader {
   background: #455372;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #455372), color-stop(100%, #2a3753));
   background-image: -webkit-linear-gradient(#455372, #2a3753);
@@ -133,7 +133,7 @@ body > header div#moztwHeader {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
 /* line 65, ../sass/screen.scss */
-body > header div#moztwHeader h1 {
+body > .vevent > header div#moztwHeader h1 {
   font-size: 2px;
   height: 8px;
   left: 0;
@@ -143,7 +143,7 @@ body > header div#moztwHeader h1 {
   z-index: 100;
 }
 /* line 73, ../sass/screen.scss */
-body > header div#moztwHeader h1 a {
+body > .vevent > header div#moztwHeader h1 a {
   display: block;
   height: 64px;
   text-decoration: none;
@@ -153,7 +153,7 @@ body > header div#moztwHeader h1 a {
   background: url("../moztw.png") no-repeat scroll 0 0 transparent;
 }
 /* line 83, ../sass/screen.scss */
-body > header div#moztwHeader ul {
+body > .vevent > header div#moztwHeader ul {
   bottom: 0;
   list-style: none outside none;
   margin: 0;
@@ -164,13 +164,13 @@ body > header div#moztwHeader ul {
   z-index: 90;
 }
 /* line 93, ../sass/screen.scss */
-body > header div#moztwHeader li {
+body > .vevent > header div#moztwHeader li {
   float: right;
   margin: 0 1px 0 0;
   padding: 0;
 }
 /* line 98, ../sass/screen.scss */
-body > header div#moztwHeader ul a {
+body > .vevent > header div#moztwHeader ul a {
   background-color: #5F697E;
   background-image: -moz-linear-gradient(center top, #6a748a, #5f697e);
   border-top-left-radius: 8px;
@@ -183,12 +183,12 @@ body > header div#moztwHeader ul a {
   text-decoration: none;
 }
 /* line 110, ../sass/screen.scss */
-body > header div#moztwHeader ul a:hover {
+body > .vevent > header div#moztwHeader ul a:hover {
   background: none repeat scroll 0 0 #747F96;
   text-shadow: 0 1px 1px #2A3753;
 }
 /* line 114, ../sass/screen.scss */
-body > header div#moztwHeader form {
+body > .vevent > header div#moztwHeader form {
   margin: 0;
   padding: 12px 20px 0 0;
   position: absolute;
@@ -198,16 +198,16 @@ body > header div#moztwHeader form {
   white-space: nowrap;
 }
 /* line 123, ../sass/screen.scss */
-body > header div#moztwHeader form label {
+body > .vevent > header div#moztwHeader form label {
   color: #FFFFFF;
   font-size: 85%;
 }
 /* line 127, ../sass/screen.scss */
-body > header div#moztwHeader form input {
+body > .vevent > header div#moztwHeader form input {
   font-size: 85%;
 }
 /* line 130, ../sass/screen.scss */
-body > header div#moztwHeader form #submit {
+body > .vevent > header div#moztwHeader form #submit {
   background: none repeat scroll 0 0 #6A7389;
   border-color: #9097A2 #283043 #283043 #9097A2;
   border-right: 1px solid #283043;
@@ -220,7 +220,7 @@ body > header div#moztwHeader form #submit {
   vertical-align: middle;
 }
 /* line 142, ../sass/screen.scss */
-body > header div#moztwHeader form #q {
+body > .vevent > header div#moztwHeader form #q {
   background: none repeat scroll 0 0 #D9DBE1;
   border: 1px solid #9097A2;
   font-size: 85%;
@@ -228,56 +228,61 @@ body > header div#moztwHeader form #q {
   width: 130px;
 }
 /* line 149, ../sass/screen.scss */
-body > header div#moztwHeader form #q:hover, body > header div#moztwHeader form #q:focus {
+body > .vevent > header div#moztwHeader form #q:hover, body > .vevent > header div#moztwHeader form #q:focus {
   background: none repeat scroll 0 0 #FFFFFF;
 }
 /* line 154, ../sass/screen.scss */
-body > header div#moztwHeader {
+body > .vevent > header div#moztwHeader {
   width: 257px;
   overflow: hidden;
 }
 /* line 157, ../sass/screen.scss */
-body > header div#moztwHeader ul, body > header div#moztwHeader form {
+body > .vevent > header div#moztwHeader ul, body > .vevent > header div#moztwHeader form {
   display: none;
 }
 /* line 162, ../sass/screen.scss */
-body > header > h1 {
+body > .vevent > header > h1 {
   font-weight: 700;
   font-size: 1.3em;
   text-transform: uppercase;
 }
 /* line 168, ../sass/screen.scss */
-body > header div.header-content {
+body > .vevent > header div.header-content {
   margin: 1em 0;
   height: 2.4em;
 }
+body > .vevent > header div.header-content abbr.dtstart,
+body > .vevent > header div.header-content abbr.dtend {
+  text-decoration: none;
+  border-bottom: none;
+}
 /* line 171, ../sass/screen.scss */
-body > header div.header-content .location {
+body > .vevent > header div.header-content .location {
   display: none;
 }
 /* line 177, ../sass/screen.scss */
-body > header nav ul {
+body > .vevent > header nav ul {
   display: block;
   padding: 0.5em 0;
 }
 /* line 180, ../sass/screen.scss */
-body > header nav ul li {
+body > .vevent > header nav ul li {
   display: inline;
   margin: 0 0.5em;
   white-space: nowrap;
 }
 /* line 188, ../sass/screen.scss */
-body > header.fixed {
+body > .vevent > header.fixed {
   position: fixed;
   padding-top: 0;
   height: auto;
 }
 /* line 192, ../sass/screen.scss */
-body > header.fixed > * {
+body > .vevent > header.fixed > * {
   display: none !important;
 }
 /* line 195, ../sass/screen.scss */
-body > header.fixed nav {
+body > .vevent > header.fixed nav {
   display: block !important;
 }
 /* line 201, ../sass/screen.scss */
@@ -533,28 +538,28 @@ body .event-link:hover {
     line-height: 1.3em;
   }
   /* line 421, ../sass/screen.scss */
-  body > header {
+  body > .vevent > header {
     background: url("../header.png") center bottom no-repeat #7aa838;
   }
   /* line 424, ../sass/screen.scss */
-  body > header div#moztwHeader {
+  body > .vevent > header div#moztwHeader {
     width: auto;
     max-width: 70em;
   }
   /* line 427, ../sass/screen.scss */
-  body > header div#moztwHeader ul, body > header div#moztwHeader form {
+  body > .vevent > header div#moztwHeader ul, body > .vevent > header div#moztwHeader form {
     display: block;
   }
   /* line 431, ../sass/screen.scss */
-  body > header a#webmaker img {
+  body > .vevent > header a#webmaker img {
     margin-right: 24em;
   }
   /* line 434, ../sass/screen.scss */
-  body > header > h1 {
+  body > .vevent > header > h1 {
     display: none;
   }
   /* line 437, ../sass/screen.scss */
-  body > header div.header-content {
+  body > .vevent > header div.header-content {
     margin-top: 350px;
   }
   /* line 441, ../sass/screen.scss */

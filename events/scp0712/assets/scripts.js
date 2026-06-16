@@ -16,10 +16,10 @@ map.addLayer(marker);
 marker.bindPopup("華山 1914 文創園區").openPopup();
 
 
-var $nav = $("body>header>nav");
+var $nav = $("body>.vevent>header>nav");
 var offset = $nav.offset().top;
 var $win = $(window);
-var $header = $("body>header");
+var $header = $("body>.vevent>header");
 
 
 var checkScroll = function(){
@@ -32,7 +32,7 @@ var checkScroll = function(){
 
 $win.scroll(checkScroll);
 // iOS bug dirty hack
-$("body>header a").click(function(){
+$("body>.vevent>header a").click(function(){
 	setTimeout(function(){$win.scrollTop($win.scrollTop()-1)}, 50)
 });
 
