@@ -19,7 +19,7 @@
       <span class="tag tag-new">全新功能</span>
       <p>在<a target="_blank" href="https://support.mozilla.org/kb/smart-window">智慧視窗</a>中，Firefox 現在可以建議相關分頁群組，並為每個群組提出名稱。</p>
       <p><img src="/firefox/releases/154.0/154_organize_tabs.png" alt="螢幕截圖：智慧視窗整理相關分頁並建議群組名稱"></p>
-      <p class="progressive-roll">此功能採行逐步釋出，意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+      <p class="progressive-roll">某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
     </li>
 
     <li>
@@ -39,22 +39,22 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>整頁式<a target="_blank" href="https://support.mozilla.org/kb/website-translation">翻譯</a>功能現在也會翻譯 <code>&lt;iframe&gt;</code> 內容。</p>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/website-translation">全頁翻譯</a>功能現在也會翻譯 <code>&lt;iframe&gt;</code> 內容。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>全頁翻譯功能現在於所有頁面載入時執行語言辨識，從而為使用者提供更好的翻譯建議體驗。</p>
+      <p>全頁翻譯功能現在於所有頁面載入時均會執行語言辨識，從而為使用者提供更好的翻譯建議體驗。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>Windows 使用者現在可以在設定中選擇不同的 Firefox 應用程式圖示。MSIX 安裝、macOS 與 Linux 目前尚不支援，但之後會加入。</p>
+      <p>Windows 使用者現在可以在設定中選擇不同的 Firefox 應用程式圖示。MSIX 安裝、macOS 與 Linux 目前尚不支援，但很快就會加入了。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>網址列現在包含「管理 AI」<a target="_blank" href="https://support.mozilla.org/kb/quick-actions-firefox-search-bar">快速動作</a>，可開啟設定中的<a target="_blank" href="https://support.mozilla.org/kb/firefox-ai-controls">AI 控制</a>。</p>
+      <p>網址列現在包含「管理 AI」<a target="_blank" href="https://support.mozilla.org/kb/quick-actions-firefox-search-bar">快速動作</a>，可開啟設定中的 <a target="_blank" href="https://support.mozilla.org/kb/firefox-ai-controls">AI 控制</a>。</p>
     </li>
 
     <li>
@@ -69,12 +69,12 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修復了 Windows 上的一個問題，即在啟動後，自動隱藏的工作列直到 Firefox 視窗最小化並恢復後才會出現。</p>
+      <p>修復了 Windows 上的一個問題：在啟動後，自動隱藏的工作列直到 Firefox 視窗最小化並恢復後才會出現。</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修復了 Windows 工作列會出現在全螢幕子母畫面視窗前面的問題。</p>
+      <p>修復了 Windows 工作列會出現在全螢幕子母畫面視窗前方的問題。</p>
     </li>
 
     <li>
@@ -89,22 +89,22 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>複數個<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-74/">安全性修正</a>。</p>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-74/">安全性修正</a>。</p>
     </li>
 
     <li>
       <span class="tag tag-changed">變更</span>
-      <p>影片跳轉播放位置的速度在所有作業系統上都已顯著提升，能更快跳到影片中的特定位置。</p>
+      <p>影片播放位置的跳轉速度在所有作業系統上都已顯著提升，能更快跳到影片中的特定位置。</p>
     </li>
 
     <li>
       <span class="tag tag-changed">變更</span>
-      <p>在 PDF 中選取的文字現在會以與網頁文字相同的方式醒目提示，且醒目提示顏色會遵循作業系統設定（例如高對比模式）。</p>
+      <p>PDF 中選取的文字現在會以與網頁文字相同的方式醒目提示，且醒目提示顏色會遵循作業系統設定（例如高對比模式）。</p>
     </li>
 
     <li>
       <span class="tag tag-changed">變更</span>
-      <p>對於新設定檔以及最近未使用 Firefox View 的設定檔，Firefox View 預設將移出工具列。您仍可透過「列出所有分頁」>「檢視所有分頁」來開啟它，或透過「自訂工具列」選單將其加回。</p>
+      <p>對於新設定檔以及最近未使用 Firefox View 的設定檔，Firefox View 預設將移出工具列。你仍可透過「列出所有分頁」>「檢視所有分頁」來開啟它，或透過「自訂工具列」選單將其加回。</p>
     </li>
 
     <li>
@@ -119,7 +119,7 @@
 
     <li>
       <span class="tag tag-developer">開發功能</span>
-      <p>JSON 檢視器現在會在所選項目的底部顯示麵包屑路徑。</p>
+      <p>JSON 檢視器現在會在底部顯示所選項目的麵包屑路徑。</p>
     </li>
 
     <li>
@@ -134,7 +134,7 @@
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p><a target="_blank" href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input/time"><code>&lt;input type="time"&gt;</code></a> 與 <a target="_blank" href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input/datetime-local"><code>&lt;input type="datetime-local"&gt;</code></a> 現在新增時間選擇器介面，讓選取時間更無障礙且更直覺。</p>
+      <p><a target="_blank" href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input/time"><code>&lt;input type="time"&gt;</code></a> 與 <a target="_blank" href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input/datetime-local"><code>&lt;input type="datetime-local"&gt;</code></a> 新增時間選擇器介面，讓選取時間更無障礙且更直覺。</p>
     </li>
 
     <li>
@@ -149,12 +149,12 @@
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/includes"><code>Iterator.prototype.includes()</code></a>，讓開發者可以直接檢查迭代器（iterator）是否包含特定值，而無需先將其轉換為陣列。</p>
+      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/includes"><code>Iterator.prototype.includes()</code></a>，讓開發者可以直接檢查迭代器是否包含特定值，而無需先將其轉換為陣列。</p>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/join"><code>Iterator.prototype.join</code></a> 方法，該方法允許將迭代器 (iterator) 連接成一個字串，類似於 <code>Array.prototype.join</code>。</p>
+      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/join"><code>Iterator.prototype.join</code></a> 方法，該方法允許將迭代器連接成一個字串，類似於 <code>Array.prototype.join</code>。</p>
     </li>
   </ul>
 
@@ -162,12 +162,22 @@
   <ul class="tags">
     <li>
       <span class="tag tag-unresolved">尚待修復</span>
-      <p>Firefox 最近調整地址自動填寫的處理邏輯後，部分使用者可能無法自動填寫地址。我們已推出修正，並密切觀察結果。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2065145">Bug 2065145</a>）</p>
+      <p><del>Firefox 最近調整地址自動填寫的處理邏輯後，部分使用者在自動填寫地址時可能失敗。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2065145">Bug 2065145</a>）</del>已於 <a target="_blank" href="https://www.firefox.com/en-US/firefox/154.0.1/releasenotes/">Firefox 154.0.1</a> 修復。</p>
     </li>
 
     <li>
       <span class="tag tag-unresolved">尚待修復</span>
-      <p>Firefox 最近調整密碼儲存機制後，部分使用者在 Firefox 存取已儲存的密碼時可能遇到效能變慢。啟用主要密碼的使用者也可能在啟動 Firefox 或開啟特定內容時，意外看到密碼提示。我們已推出緩解措施，並持續改善使用體驗。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2064411">Bug 2064411</a>）</p>
+      <p><del>Firefox 最近調整密碼儲存機制後，部分使用者在 Firefox 存取已儲存的密碼時可能遇到效能變慢。啟用主要密碼的使用者也可能在啟動 Firefox 或開啟特定內容時，意外看到密碼提示。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2064411">Bug 2064411</a>）</del>已於 <a target="_blank" href="https://www.firefox.com/en-US/firefox/154.0.1/releasenotes/">Firefox 154.0.1</a> 修復。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p>啟用垂直分頁的使用者，側邊欄可能在 Firefox 重新啟動後無法維持顯示。重新啟動後，可點擊側邊欄工具列按鈕再次啟動垂直分頁。修正正在開發中。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2065431">Bug 2065431</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p>在全螢幕模式下隱藏工具列時（Windows 與 Linux 的預設行為），將游標移至螢幕左緣時，垂直分頁側邊欄不會出現。暫時解法：將游標移至螢幕頂端，以同時顯示工具列與側邊欄；或者右鍵點擊工具列，取消勾選「隱藏工具列」。我們正在修復中。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2064638">Bug 2064638</a>）</p>
     </li>
   </ul>
 
